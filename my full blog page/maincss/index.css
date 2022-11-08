@@ -1,0 +1,18 @@
+
+*{
+    direction: rtl;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+@font-face{
+    font-family: sans-serif;
+}
+    

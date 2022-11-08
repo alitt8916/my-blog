@@ -1,0 +1,22 @@
+<i class="fa-solid fa-house-user"></i> home
+
+
+
+<i class="fa-sharp fa-solid fa-magnifying-glass"></i>  search
+
+
+<i class="fa-solid fa-cart-shopping"></i> shopin card
+
+
+<i class="fa-solid fa-user"></i> user 1
+
+
+<i class="fa-regular fa-user"></i> user 2
+
+<i class="fa-solid fa-circle"></i> circle
+
+<i class="fa-solid fa-star"></i> star
+
+<i class="fa-solid fa-heart"></i> heart
+
+<i class="fa-solid fa-cart-shopping"></i> 

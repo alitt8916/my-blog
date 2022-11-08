@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/maincss/animate.css">
+    <link rel="stylesheet" href="./maincss/index.css">
+    <link rel="stylesheet" href="./maincss/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="/maincss/flexboxgrid.css">
+    <link rel="stylesheet" href="/maincss/owl-carousel.css">
+    <link rel="stylesheet" href="/maincss/owl-theme.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-right">
+                <a href=""><i class="fa-solid fa-house-user"></i></a>
+                <a href=""><i class="fa-sharp fa-solid fa-magnifying-glass"></i></a>
+                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href=""><i class="fa-solid fa-user"></i></a>
+            </div>
+            <div class="nav-left">
+                <div class="register-login-btn">
+                    <i class="fa-regular fa-user"></i>
+                    <a href="">ثبت نام/ورود</a>
+                </div>
+            </div>
+        </nav>
+        <section class="slider">
+            <div class="slides">
+                <div class="item active" id="slide1">
+                    <img src="/image/banner-item-01.jpg" alt="">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </div>
+                <div class="item" id="slide2">
+                    <img src="/image/comment-author-02.jpg" alt="">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </div>
+                <div class="item" id="slide3">
+                    <img src="/image/comment-author-03.jpg" alt="">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </div>
+            </div>
+            <div class="bottuns">
+                <i onclick="setSlide('slide1 , 1')"  class="fa-solid fa-circle"></i>
+                <i onclick="setSlide('slide2 , 2')" class="fa-solid fa-circle"></i>
+                <i onclick="setSlide('slide3 , 3')" class="fa-solid fa-circle"></i>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="product-sec-new">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-sx-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="/image/01 backgr.jpg" alt="">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            نام محصول
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">800$</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">علاقه</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">خرید</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-sx-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="/image/02 backgr.jpg" alt="">
+                            <span class="hot-offer">پیشنهاد ویژه</span>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            یه چیز جدید
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">900$</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">علاقه</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">خرید</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-sx-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="/image/01 backgr.jpg" alt="">
+                            <!-- <span>پیشنهاد ویژه</span> -->
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            بازم جدید
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">500$</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">علاقه</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">خرید</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-sx-12">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="/image/01 backgr.jpg" alt="">
+                            <span class="hot-offer">پیشنهاد ویژه</span>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            نام قدیمی
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">10000$</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">علاقه</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">خرید</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="supper-offer-section">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="supper-offer-box">
+                        <span class="supper-offer-box-title">
+                            پیشنهاد شگفت انگیز
+                        </span>
+                        <div class="body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="image-container">
+                                        <img src="/image/01 backgr.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="spesification">
+                                        <div class="price-row">
+                                            <div class="price">
+                                                1میلیون تومان
+                                            </div>
+                                            <div class="off">
+                                                60% تخفیف
+                                            </div>
+                                        </div>
+                                        <div class="title">
+                                            هدسا ایسوس مدل 1862
+                                        </div>
+                                        <div class="counter-down">
+                                            <span id="seconds">55</span>
+                                            <span id="minutes">19</span>
+                                            <span id="hours">15</span>
+                                        </div>
+                                        <div class="remaining-time">زمان باقی مانده تا پایان سفارش</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="banner">
+                        <img src="/image/banner-item-03.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!-- <section class="dragble-list"> 
+            <div class="title">
+                <span>هندزها</span>
+            </div>
+            <div id="owl-product" class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="/image/01 backgr.jpg" alt="">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            نام محصول
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">800$</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">علاقه</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">خرید</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="/image/01 backgr.jpg" alt="">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            نام محصول
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">800$</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">علاقه</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">خرید</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="/image/01 backgr.jpg" alt="">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            نام محصول
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">800$</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">علاقه</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">خرید</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="/image/01 backgr.jpg" alt="">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            نام محصول
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">800$</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">علاقه</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">خرید</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="/image/01 backgr.jpg" alt="">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            نام محصول
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">800$</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">علاقه</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">خرید</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shoping-card">
+                        <div class="img-sec">
+                            <img src="/image/01 backgr.jpg" alt="">
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="title">
+                            نام محصول
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">800$</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">علاقه</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a href="" class="b-text">خرید</a>
+                                    <a href="" class="b-icon"><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  -->
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="right">
+                    <div class="title">
+                       درباره ما
+                    </div>
+                    <div class="des">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, porro. Necessitatibus harum odit, consequuntur sapiente et voluptatem praesentium ab laudantium dolore veritatis quisquam esse error quos reiciendis corrupti velit dicta eligendi adipisci quam debitis quibusdam modi earum! Eos, quasi! Dolore.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="left">
+                    <div class="title">
+                        مارا در شبکه های اجتماعی دنبال کنید
+                    </div>
+                     <div class="socials">
+                            <a href=""><i class="fa-brands fa-instagram"></i></a> 
+                            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-telegram"></i></a>
+                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            کلیه حقوق محفوظ میباشد 2022 ©
+        </div>
+    </footer>
+    <script src="/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/owl.js"></script>
+</body>
+</html>
